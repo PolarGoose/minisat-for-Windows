@@ -1,0 +1,20 @@
+{
+  "vcpkg-configuration": {
+    "default-registry": {
+      "kind": "git",
+      "baseline": "2e2102fa4a0b37cd1a7eabc20af36718086cdcc6",
+      "repository": "https://github.com/microsoft/vcpkg"
+    },
+    "registries": [
+      {
+      "kind": "artifact",
+      "location": "https://github.com/microsoft/vcpkg-ce-catalog/archive/refs/heads/main.zip",
+      "name": "microsoft"
+      }
+    ]
+  },
+
+  "dependencies": [
+    "zlib"
+  ]
+}
